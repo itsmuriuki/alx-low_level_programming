@@ -1,5 +1,8 @@
 #include <stdio.h>
-/* using puts is less expensive */
+/**
+*main - where execution is started
+*Return: ends execution of a function
+**/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
