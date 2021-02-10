@@ -14,4 +14,6 @@ int add(int, int);
 void print_to_98(int n);
 void print_times_table(int n);
 int largest_number(int, int, int);
+void print_remaining_days(int, int, int);
+int convert_day(int, int);
 #endif
