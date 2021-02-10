@@ -1,3 +1,4 @@
+
 #include "holberton.h"
 
 /**
@@ -11,7 +12,7 @@ int a, n;
 
 n = 0;
 
-while (n < 10
+while (n < 10)
 {
 a = 'a';
 while (a <= 'z')
