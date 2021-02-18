@@ -14,3 +14,5 @@ The contents of the following folders are a series of programs that I wrote for 
 1. **[0x01-variables_if_else_while](https://github.com/itsmuriuki/alx-low_level_programming/tree/master/0x01-variables_if_else_while)**
 2. **[0x02-functions_nested_loops](https://github.com/itsmuriuki/alx-low_level_programming/tree/master/0x02-functions_nested_loops)**
 3. **[0x03-more_functions_nested_loops](https://github.com/itsmuriuki/alx-low_level_programming/tree/master/0x03-more_functions_nested_loops)**
+4. **[0x04-pointers_arrays_strings](https://github.com/itsmuriuki/dhkschool-low_level_programming/tree/master/0x04-pointers_arrays_strings)**
+5. **[0x05-pointers_arrays_strings](https://github.com/itsmuriuki/dhkschool-low_level_programming/tree/master/0x05-pointers_arrays_strings)**
