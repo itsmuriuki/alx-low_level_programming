@@ -8,9 +8,9 @@
 char *rot13(char *str)
 {
 char *start = str;
-char original[] = 
+char original[] =
 "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-char replacement[] = 
+char replacement[] =
 "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 int i = 0;
 
