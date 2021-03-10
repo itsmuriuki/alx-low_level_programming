@@ -1,32 +1,77 @@
 #include "3-calc.h"
 #include <stdio.h>
-#include <stdlib.h>
-/**
- *get_op_func - returns a pointer to a function
- *@s: operator passed as argument
- *
- *Description: looks at sign argument and returns a pointer to function
- *Return: a pointer to a function that takes two ints and returns an int
- */
-int (*get_op_func(char *s))(int, int)
-{
-op_t ops[] = {
-{"+", op_add},
-{"-", op_sub},
-{"*", op_mul},
-{"/", op_div},
-{"%", op_mod},
-{NULL, NULL}
-};
-int i;
-i = 0;
 
-while (ops[i].op != NULL)
+/**
+ *op_add - adds numbers a and b
+ *@a: first number
+ *@b: second number
+ *
+ *Return: sum of a and b
+ */
+int op_add(int a, int b)
 {
-if ((*s == *(ops[i].op)) && *(s + 1) == '\0')
-return (ops[i].f);
-i++;
+int sum = 0;
+
+sum = a + b;
+return (sum);
 }
-printf("Error\n");
-exit(99);
+
+/**
+ *op_sub - subtracts numbers a and b
+ *@a: first number
+ *@b: second number
+ *
+ *Return: subtraction of a and b
+ */
+int op_sub(int a, int b)
+{
+int difference = 0;
+
+difference = a - b;
+return (difference);
+}
+
+/**
+ *op_mul - multiplies a and b
+ *@a: first number
+ *@b: second number
+ *
+ *Return: product of a and b
+ */
+int op_mul(int a, int b)
+{
+int product = 0;
+
+product = a * b;
+return (product);
+}
+
+/**
+ *op_div - divides a and b
+ *@a: first number
+ *@b: second number
+ *
+ *Return: the division of a and b
+ */
+int op_div(int a, int b)
+{
+int division = 0;
+
+division = a / b;
+return (division);
+}
+
+/**
+ *op_mod - returns remainder of division of a and b
+ *@a: first number
+ *@b: second number
+ *
+ *Return: the modulus of a and b
+ */
+int op_mod(int a, int b)
+{
+int modulus = 0;
+
+modulus = a % b;
+return (modulus);
 }
