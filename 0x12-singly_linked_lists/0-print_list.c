@@ -17,7 +17,7 @@ while (h != NULL)
   if (h->str == NULL)
     {
       printf("[0] (nil)\n");
-      h = h->next
+      h = h->next;
 	}
   else
     {

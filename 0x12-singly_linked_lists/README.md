@@ -160,5 +160,4 @@ The primary goal of this project was to learn when to use arrays vs. singly link
 		    ```
 
 
-		    2018 - All programs written by Derek Kwok ([@dlangshk](https://twitter.com/dlangshk)) at [DHK School](https://www.dhkschool.com/)
-		    etc
+		    
