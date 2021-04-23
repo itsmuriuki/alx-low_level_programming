@@ -17,7 +17,7 @@ unsigned int stringlen(const char *str)
 		{
 			i++;
 		}
-		return(i);
+		return (i);
 }
 
 /**
