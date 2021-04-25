@@ -1,0 +1,67 @@
+Skip to content
+Search or jump
+Pull requests
+Issues
+Marketplace
+Explore
+
+@itsmuriuki
+dkwok94
+/
+low_level_programming
+0
+0
+1
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+re making changes in a project you t have write access to. Submitting a change will write it to a new branch in your fork itsmuriuki/low_level_programming, so you can send a pull request.
+low_level_programming
+/
+0x13-bit_manipulation
+/
+README.md
+in
+dkwok94:master
+
+
+Spaces
+
+2
+
+Soft wrap
+1
+# 0x13. C - Bit manipulation
+
+3
+## Overview
+4
+The goal of this project was to learn how to manipulate bits and use bitwise operators
+
+6
+## Requirements
+7
+### C Scripts
+8
+* Allowed editors: `vi`, `vim`, `emacs`
+9
+* All your files will be compiled on Ubuntu 14.04 LTS
+10
+* Your programs and functions will be compiled with gcc 4.8.4 using the flags `-Wall -Werror -Wextra and -pedantic`
+11
+* All your files should end with a new line
+12
+* Your code should use the Betty style. It will be checked using `betty-style.pl` and `betty-doc.pl`
+13
+* You are not allowed to use global variables
+14
+* No more than 5 functions per file
+15
+* You are not allowed to use the standard library. Any use of functions like `printf`, `puts`, etc
+
+donYouto
